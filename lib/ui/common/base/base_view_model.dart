@@ -8,9 +8,7 @@ class BaseViewModel extends StateNotifier<ViewModelStatus> {
 
   @protected
   @mustCallSuper
-  void init() {
-    state = ViewModelStatus.initial;
-  }
+  void init() {}
 
   @protected
   @mustCallSuper
@@ -29,4 +27,6 @@ class BaseViewModel extends StateNotifier<ViewModelStatus> {
   void error() {
     state = ViewModelStatus.error;
   }
+
+  bool get isLoaded => state == ViewModelStatus.loaded;
 }

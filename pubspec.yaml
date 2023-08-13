@@ -25,7 +25,8 @@ dependencies:
 # Routes
   auto_route: ^7.8.0
 
-
+#Utils
+  logger: ^2.0.1
 
 #skeleton
   shimmer: ^3.0.0
