@@ -42,3 +42,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+#environment
+.env
+
+.fvm/
+
+#generated flies
+*.gr.dart
+*.g.dart
